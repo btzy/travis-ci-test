@@ -2,4 +2,7 @@ language: cpp
 compiler:
   - clang
   - gcc
+os:
+  - linux
+  - osx
 script: $CXX src/main.cpp -o main
