@@ -2,3 +2,4 @@ language: cpp
 compiler:
   - clang
   - gcc
+script: cc src/main.cpp -o main
